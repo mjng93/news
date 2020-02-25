@@ -8,6 +8,15 @@ h1 {
     background-color: #34495E;
 }
 
+.navbar .navbar-light .bg-light{
+    background-color: #34495E;
+}
+
+.navbar .navbar-brand{
+    background-color: #34495E;
+}
+
+
 
 
 p{
@@ -59,6 +68,9 @@ html {
     position: absolute;   
   }
 
+.footer .page-footer{
+     background-color: #34495E;
+}
 
 .container, .container-sm{
     max-width: 100%;
