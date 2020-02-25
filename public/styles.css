@@ -12,17 +12,10 @@ h1 {
     background-color: #34495E;
 }
 
+
 .navbar .navbar-brand{
     background-color: #34495E;
 }
-
-
-
-
-p{
-    text-align: center;
-}
-
 
 h2{
     font-family: 'Oswald', cursive;
@@ -55,21 +48,19 @@ html {
     position: relative;
     min-height: 100%;
   }
-  
-
-
 
 
   .footer, .page-footer, .footer-copyright, article, aside, figcaption, figure, footer, footer.page {
       background-color: #34495E;
        border-top: 1px solid black;
     bottom:0;
-    /* width:100%; */
+    width:100%; 
     position: absolute;   
   }
 
 .footer .page-footer{
      background-color: #34495E;
+      width:100%; 
 }
 
 .container, .container-sm{
@@ -98,5 +89,7 @@ background-color:#34495E;
     background-image: url("matrix_gif.gif");
 }
 
-
+.bg-light{
+    background-color: #34495E;
+}
 
