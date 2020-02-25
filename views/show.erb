@@ -22,8 +22,17 @@
   </head>
   <body>
 
-    <div class="container mt-5">
-      <h1>Weather</h1>
+  <nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    
+    KIEI Daily <i class="far fa-newspaper"></i>
+  </a>
+</nav>
+
+    <div class="container mt-12">
+      <div class="row mt-12">
+    <div class="col mt-6">
+      <h2>Weather</h2>
       <p>
       In <%=@place%> today, it is currently <%=@current_temperature%> degrees and <%=@current_conditions%>"
       </p>
@@ -36,8 +45,10 @@
     <%end%>
     </div>
 
-<h2>News</h2>
-      <div class="container mt-5">
+    <div class="col mt-12">
+    <h2>News</h2>
+     
+   
      <% for i in (0..5)%>
      <p>
      <strong><%=@news["articles"][i]["title"]%></strong>
@@ -45,8 +56,18 @@
      <a href=<%=@news["articles"][i]["url"]%> class="btn btn-primary" target="_blank">Link</a>
      </p>
      <%end%>
+     </div>
+</div>
 </div>
 
+<div class="container footer">
+    <div class="row mt-12-center">
+      <div class="col-md-3">
+        <h6><a href="/">New Location</a></h6>
+      </div>
+     
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
