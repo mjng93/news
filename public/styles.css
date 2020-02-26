@@ -1,24 +1,14 @@
 h1 {
     font-size: 50px;
     text-align: center;
-    font-family: 'Oswald', cursive;
-}
-
-.navbar, .navbar-light, .bg-light, bg-light{
-    background-color: #34495E;
-}
-
-.navbar .navbar-light .bg-light{
-    background-color: #34495E;
+    font-family: Spartan, Raleway;
 }
 
 
-.navbar .navbar-brand{
-    background-color: #34495E;
-}
+
 
 h2{
-    font-family: 'Oswald', cursive;
+    font-family: Spartan, Raleway;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -26,7 +16,7 @@ h2{
 
 h6{
     text-align: center;
-     background-color: grey;
+     background-color:#E5E7E9;
 }
 
 .categories {
@@ -38,7 +28,7 @@ h6{
 body {
     background-color:#F8F8FF;
 
-    font-family: 'Oswald', sans-serif;
+    font-family: Spartan, Raleway;
     margin-bottom: 100px; /* Margin bottom by footer height */
     /* height: 100%; */
     /*background-image: url(embiid_color.jpg);*/
@@ -51,29 +41,33 @@ html {
 
 
   .footer, .page-footer, .footer-copyright, article, aside, figcaption, figure, footer, footer.page {
-      background-color: #34495E;
-       border-top: 1px solid black;
+      background-color: #E5E7E9;
+       border-top: 5px #E5E7E9;
     bottom:0;
     width:100%; 
     position: absolute;   
+     margin-top: 5px;
   }
 
 .footer .page-footer{
-     background-color: #34495E;
+     background-color: #E5E7E9;
       width:100%; 
+       margin-top: 5px;
 }
 
 .container, .container-sm{
     max-width: 100%;
     padding-right: 0px;
     margin-right: 0px;
+     margin-top: 5px;
 }
 
 .container.footer{
-background-color:#34495E;
+background-color:#E5E7E9;
  max-width: 100%;
     padding-right: 0px;
     margin-right: 0px;
+    margin-top: 5px;
 }
  
 
@@ -83,13 +77,13 @@ background-color:#34495E;
       color: black;
   }
 
-  .btn-outline-info:hover{
-    border-color: black;
-    color: black;
-    background-image: url("matrix_gif.gif");
+.btn .btn-primary{
+    
+      color: #3498DB;
+
 }
 
 .bg-light{
-    background-color: #34495E;
+    background-color: #E5E7E9;
 }
 

@@ -7,7 +7,7 @@
 
     <!-- Google Fonts -->
     <!-- Swap out "Roboto" for the font(s) you want to use -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Spartan&display=swap" rel="stylesheet">
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
@@ -24,10 +24,9 @@
 
   <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
-
+<div class="navbar-brand bg-light">
     KIEI Daily <i class="far fa-newspaper"></i>
-
-   
+    </div>
   </a>
 </nav>
 
@@ -36,7 +35,7 @@
     <div class="col mt-6">
       <h2>Weather<i class="far fa-sun"></i></h2>
       
-       <img src="weather.jpeg" width="200" height="100">
+       <img src="/weather.jpeg" width="600" height="200">
       <p>
       In <%=@place%> today, it is currently <%=@current_temperature%> degrees and <%=@current_conditions%>"
       </p>
@@ -50,7 +49,7 @@
     </div>
 
     <div class="col mt-12">
-    <h2>News</h2>
+    <h2>News <i class="far fa-newspaper"></i></h2>
      
    
      <% for i in (0..5)%>
@@ -66,7 +65,7 @@
 
 
 <footer class="page-footer font-small text-center">
-    <a href="/"> New Location</a>
+    <a href="/"> Choose a New Location</a>
 </footer>
 
     <!-- Optional JavaScript -->
